@@ -9,9 +9,9 @@ classifiers = [
 ]
 
 setup(
-    name='control-systems',
+    name='control-systems-toolbox',
     version='0.0.1',
-    description='A control systems design and simulation toolkit',
+    description='A control systems design and simulation toolbox',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='',
