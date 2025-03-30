@@ -20,6 +20,7 @@ setup(
     license='MIT',
     classifiers=classifiers,
     keywords='control',
-    packages=find_packages(),
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=['']
 )
